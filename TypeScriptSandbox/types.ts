@@ -4,6 +4,8 @@ let myNumber: number;
 let myBoolean: boolean;
 let myVar: any;
 
+let inlineStringDeclared: string = "This was declared on one line";
+
 myVar = 5;
 myBoolean = true;
 myNumber = 22;
@@ -33,6 +35,11 @@ newAnyArr = [1, "two", false, numArr];
 
 //Tuple
 let strNumTuple: [string, number];
-
 strNumTuple = ["Hello", 4];
-console.log(newAnyArr);
+
+//Void
+let myVoid: void = undefined || null;
+let myNull: null = null;
+let myUndefined: undefined = undefined;
+
+console.log(myVoid);

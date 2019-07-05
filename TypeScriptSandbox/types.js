@@ -3,6 +3,7 @@ var myString;
 var myNumber;
 var myBoolean;
 var myVar;
+var inlineStringDeclared = "This was declared on one line";
 myVar = 5;
 myBoolean = true;
 myNumber = 22;
@@ -28,4 +29,8 @@ newAnyArr = [1, "two", false, numArr];
 //Tuple
 var strNumTuple;
 strNumTuple = ["Hello", 4];
-console.log(newAnyArr);
+//Void
+var myVoid = undefined || null;
+var myNull = null;
+var myUndefined = undefined;
+console.log(myVoid);
